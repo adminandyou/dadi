@@ -1,9 +1,8 @@
 import '../css/index.scss';
-import 'bootstrap/dist/js/bootstrap';
-import 'bootstrap/dist/css/bootstrap.css';
+
+const util = require("./common/util.js")
 
 const echarts = require('echarts');
-
 
 function initEcharts(){
 	var dom = document.getElementById("container");
@@ -69,7 +68,7 @@ function initEcharts(){
 	        orient: 'horizontal',
 	        y: 'bottom',
 	        icon: 'circle',
-	        data:['直接访问','邮件营销','联盟广告','视频广告','搜索引擎']
+	        data:['音乐','影视','动漫','美术','文字','戏剧']
 	    },
 	    series: [
 	        {
@@ -97,11 +96,12 @@ function initEcharts(){
 	                }
 	            },
 	            data:[
-	                {value:335, name:'直接访问'},
-	                {value:310, name:'邮件营销'},
-	                {value:234, name:'联盟广告'},
-	                {value:135, name:'视频广告'},
-	                {value:1548, name:'搜索引擎'}
+					{value:335, name:'音乐'},
+	                {value:310, name:'影视'},
+	                {value:234, name:'动漫'},
+	                {value:135, name:'美术'},
+	                {value:135, name:'文字'},
+	                {value:1548, name:'戏剧'}
 	            ]
 	        }
 	    ]

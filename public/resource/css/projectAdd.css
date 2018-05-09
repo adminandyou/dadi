@@ -517,24 +517,89 @@ label {
     width: 135px !important;
     min-width: 135px !important; } }
 
-.content-wrapper .row {
-  margin: 0;
-  background-color: #fff;
-  padding: 10px; }
-  .content-wrapper .row .panel {
-    margin: 0; }
-    .content-wrapper .row .panel .panel-body {
-      height: 300px;
-      padding: 0 10px 10px; }
+.contractAdd .content-wrapper .set-project label {
+  width: 100px; }
 
-.content-wrapper .table-responsive {
-  margin-top: 20px;
-  padding: 10px;
-  background: #fff; }
-  .content-wrapper .table-responsive h3 {
-    width: 100%;
-    height: 50px;
-    line-height: 50px;
-    border-bottom: 1px solid #ccc; }
-    .content-wrapper .table-responsive h3 a {
-      float: right; }
+.contractAdd .content-wrapper .set-project textarea.form-control {
+  width: 83%; }
+
+.contractAdd .content-wrapper .set-project button.file {
+  margin: 0; }
+
+.contractAdd .content-wrapper .participant dl {
+  padding: 10px 30px;
+  height: 50px;
+  background-color: #fff; }
+  .contractAdd .content-wrapper .participant dl dt {
+    float: left;
+    font: 14px/30px "\5FAE\8F6F\96C5\9ED1"; }
+  .contractAdd .content-wrapper .participant dl dd {
+    float: right;
+    margin-left: 10px; }
+    .contractAdd .content-wrapper .participant dl dd i {
+      font-size: 12px;
+      margin-right: 5px; }
+
+.contractAdd .content-wrapper .participant td button {
+  color: #4B70C1; }
+  .contractAdd .content-wrapper .participant td button i {
+    font-size: 12px;
+    margin-right: 5px; }
+
+.contractAdd .content-wrapper .resources .row.bcf {
+  padding: 10px 30px 0;
+  background-color: #fff;
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+  position: relative; }
+  .contractAdd .content-wrapper .resources .row.bcf ul {
+    border: 0;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    height: 40px; }
+  .contractAdd .content-wrapper .resources .row.bcf button {
+    position: absolute;
+    z-index: 2;
+    right: 10px;
+    top: 8px; }
+
+.contractAdd .content-wrapper .resources .tab-content {
+  width: 100%;
+  min-height: 300px; }
+  .contractAdd .content-wrapper .resources .tab-content .tab-pane p {
+    text-align: center;
+    line-height: 300px; }
+
+.contractAdd .content-wrapper .resources textarea {
+  width: 90%; }
+
+.contractAdd .content-wrapper .participant, .contractAdd .content-wrapper .resources {
+  display: none; }
+
+.participant-modal label {
+  width: 200px;
+  margin-right: 15px;
+  color: #A3AFC1; }
+
+.participant-modal input, .participant-modal select {
+  min-width: 200px; }
+
+.Indexes .modal-body button {
+  position: relative; }
+
+.Indexes .modal-body table {
+  margin-top: 20px; }
+  .Indexes .modal-body table, .Indexes .modal-body table th, .Indexes .modal-body table td {
+    text-align: center;
+    color: #A3AFC1;
+    font-weight: normal; }
+
+.Indexes .modal-body .row input {
+  width: 100% !important; }
+
+.Indexes .modal-body .form-inline {
+  padding-top: 0; }
+
+.newly-added .modal-body .form-inline {
+  padding-top: 0; }
